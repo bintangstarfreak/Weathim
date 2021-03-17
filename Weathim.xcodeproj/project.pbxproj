@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14527CA7823D2DC01D903D62 /* Pods_Weathim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AC20560E58BCA6AF730DD7 /* Pods_Weathim.framework */; };
 		8D05A51726024074007EB8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05A51626024074007EB8D7 /* AppDelegate.swift */; };
 		8D05A51926024074007EB8D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05A51826024074007EB8D7 /* SceneDelegate.swift */; };
-		8D05A51B26024074007EB8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05A51A26024074007EB8D7 /* ViewController.swift */; };
+		8D05A51B26024074007EB8D7 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05A51A26024074007EB8D7 /* MainVC.swift */; };
 		8D05A51E26024074007EB8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D05A51C26024074007EB8D7 /* Main.storyboard */; };
 		8D05A52026024077007EB8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D05A51F26024077007EB8D7 /* Assets.xcassets */; };
 		8D05A52326024077007EB8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D05A52126024077007EB8D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06923F78DF28D774E3DC5AC3 /* Pods-Weathim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weathim.debug.xcconfig"; path = "Target Support Files/Pods-Weathim/Pods-Weathim.debug.xcconfig"; sourceTree = "<group>"; };
+		2FFDBA90D53925DAB73A1278 /* Pods-Weathim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weathim.release.xcconfig"; path = "Target Support Files/Pods-Weathim/Pods-Weathim.release.xcconfig"; sourceTree = "<group>"; };
 		8D05A51326024074007EB8D7 /* Weathim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weathim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D05A51626024074007EB8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D05A51826024074007EB8D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D05A51A26024074007EB8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D05A51A26024074007EB8D7 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		8D05A51D26024074007EB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D05A51F26024077007EB8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D05A52226024077007EB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D05A52426024077007EB8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AC20560E58BCA6AF730DD7 /* Pods_Weathim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weathim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14527CA7823D2DC01D903D62 /* Pods_Weathim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20943157B0B02A3366369FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06923F78DF28D774E3DC5AC3 /* Pods-Weathim.debug.xcconfig */,
+				2FFDBA90D53925DAB73A1278 /* Pods-Weathim.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B2BF28203E06E020576E9DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AC20560E58BCA6AF730DD7 /* Pods_Weathim.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D05A50A26024074007EB8D7 = {
 			isa = PBXGroup;
 			children = (
 				8D05A51526024074007EB8D7 /* Weathim */,
 				8D05A51426024074007EB8D7 /* Products */,
+				20943157B0B02A3366369FC9 /* Pods */,
+				7B2BF28203E06E020576E9DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,39 @@
 		8D05A51526024074007EB8D7 /* Weathim */ = {
 			isa = PBXGroup;
 			children = (
+				8D3E877A26024D890070F4AD /* Model */,
+				8D3E877B26024D910070F4AD /* View */,
+				8D3E877C26024D990070F4AD /* Controller */,
 				8D05A51626024074007EB8D7 /* AppDelegate.swift */,
 				8D05A51826024074007EB8D7 /* SceneDelegate.swift */,
-				8D05A51A26024074007EB8D7 /* ViewController.swift */,
 				8D05A51C26024074007EB8D7 /* Main.storyboard */,
 				8D05A51F26024077007EB8D7 /* Assets.xcassets */,
 				8D05A52126024077007EB8D7 /* LaunchScreen.storyboard */,
 				8D05A52426024077007EB8D7 /* Info.plist */,
 			);
 			path = Weathim;
+			sourceTree = "<group>";
+		};
+		8D3E877A26024D890070F4AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D3E877B26024D910070F4AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D3E877C26024D990070F4AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D05A51A26024074007EB8D7 /* MainVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D05A52726024077007EB8D7 /* Build configuration list for PBXNativeTarget "Weathim" */;
 			buildPhases = (
+				02FDCE106C0BDC40F2D682F7 /* [CP] Check Pods Manifest.lock */,
 				8D05A50F26024074007EB8D7 /* Sources */,
 				8D05A51026024074007EB8D7 /* Frameworks */,
 				8D05A51126024074007EB8D7 /* Resources */,
+				C0B6B39A1317BC7C590207E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +183,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02FDCE106C0BDC40F2D682F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weathim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B6B39A1317BC7C590207E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weathim/Pods-Weathim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weathim/Pods-Weathim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weathim/Pods-Weathim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D05A50F26024074007EB8D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D05A51B26024074007EB8D7 /* ViewController.swift in Sources */,
+				8D05A51B26024074007EB8D7 /* MainVC.swift in Sources */,
 				8D05A51726024074007EB8D7 /* AppDelegate.swift in Sources */,
 				8D05A51926024074007EB8D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +374,7 @@
 		};
 		8D05A52826024077007EB8D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06923F78DF28D774E3DC5AC3 /* Pods-Weathim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,12 +386,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Coursenet.Weathim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D05A52926024077007EB8D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFDBA90D53925DAB73A1278 /* Pods-Weathim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Coursenet.Weathim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
